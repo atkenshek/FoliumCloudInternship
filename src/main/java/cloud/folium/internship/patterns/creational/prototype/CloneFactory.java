@@ -1,0 +1,9 @@
+package cloud.folium.internship.patterns.creational.prototype;
+
+public class CloneFactory {
+
+    public Animal getClone(Animal animalSample) {
+        return animalSample.makeCopy();
+    }
+
+}
